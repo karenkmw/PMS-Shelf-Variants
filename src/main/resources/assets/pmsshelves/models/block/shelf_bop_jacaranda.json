@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_body",
+  "textures": {
+    "all": "pmsshelves:block/bop_jacaranda_shelf",
+    "particle": "biomesoplenty:block/stripped_jacaranda_log"
+  }
+}
