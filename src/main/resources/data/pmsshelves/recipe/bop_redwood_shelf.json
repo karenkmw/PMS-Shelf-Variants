@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:stripped_redwood_log"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:bop_redwood_shelf",
+    "count": 6
+  }
+}

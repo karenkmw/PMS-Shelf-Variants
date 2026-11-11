@@ -4,10 +4,10 @@ license="MIT"
 
 [[mods]]
 modId="pmsshelves"
-version="0.1.0"
-displayName="PMS Shelf Variants - Proof of Concept"
+version="0.4.0"
+displayName="PMS Shelf Variants"
 authors="PMS"
-description="Three modded-wood shelf variants using Shelf Backport functionality."
+description="107 shelves for six wood-adding mods using Shelf Backport, with PMS-only alignment."
 
 [[dependencies.pmsshelves]]
 modId="neoforge"
@@ -51,3 +51,24 @@ versionRange="[0,)"
 ordering="AFTER"
 side="BOTH"
 
+
+[[dependencies.pmsshelves]]
+modId="biomeswevegone"
+type="required"
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.pmsshelves]]
+modId="mysticsbiomes"
+type="required"
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.pmsshelves]]
+modId="distantlandsmc"
+type="required"
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"

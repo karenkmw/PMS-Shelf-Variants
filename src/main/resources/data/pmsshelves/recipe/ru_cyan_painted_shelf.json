@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:cyan_painted_planks"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:ru_cyan_painted_shelf",
+    "count": 6
+  }
+}

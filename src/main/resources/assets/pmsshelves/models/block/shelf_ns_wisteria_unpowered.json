@@ -2,6 +2,6 @@
   "parent": "shelvesbackport:block/template_shelf_unpowered",
   "textures": {
     "all": "pmsshelves:block/ns_wisteria_shelf",
-    "particle": "natures_spirit:block/stripped_wisteria_log"
+    "particle": "pmsshelves:block/ns_wisteria_shelf"
   }
 }

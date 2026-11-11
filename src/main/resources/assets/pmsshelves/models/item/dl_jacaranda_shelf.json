@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_inventory",
+  "textures": {
+    "all": "pmsshelves:block/dl_jacaranda_shelf",
+    "particle": "pmsshelves:block/dl_jacaranda_shelf"
+  }
+}

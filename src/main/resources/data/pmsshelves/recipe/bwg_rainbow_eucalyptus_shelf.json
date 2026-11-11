@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomeswevegone:stripped_rainbow_eucalyptus_log"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:bwg_rainbow_eucalyptus_shelf",
+    "count": 6
+  }
+}

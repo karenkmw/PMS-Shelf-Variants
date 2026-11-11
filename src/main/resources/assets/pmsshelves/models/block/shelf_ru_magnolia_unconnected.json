@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_unconnected",
+  "textures": {
+    "all": "pmsshelves:block/ru_magnolia_shelf",
+    "particle": "pmsshelves:block/ru_magnolia_shelf"
+  }
+}

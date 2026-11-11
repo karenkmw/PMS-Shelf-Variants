@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_unpowered",
+  "textures": {
+    "all": "pmsshelves:block/bwg_blue_enchanted_shelf",
+    "particle": "pmsshelves:block/bwg_blue_enchanted_shelf"
+  }
+}

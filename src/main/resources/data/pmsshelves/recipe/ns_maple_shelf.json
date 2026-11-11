@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "natures_spirit:stripped_maple_log"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:ns_maple_shelf",
+    "count": 6
+  }
+}

@@ -1,36 +1,27 @@
-# PMS Shelf Variants — Proof of Concept v0.1.0
+# PMS Shelf Variants v0.4.0 – all wood variants
 
-**PMS = Psycho’s Minecraft Server.**
+Standalone NeoForge 1.21.1 addon for Shelf Backport 1.0.0. Total **107** shelves.
 
-This is a **source project, not a ready-to-install Minecraft mod**. Do not put the ZIP in your client or server `mods` folder. A NeoForge build must succeed before a test JAR exists.
+The proven **2.5 / 16.0** visual alignment setting from v0.3.0 is preserved. The original three registry IDs are unchanged, so worlds retaining those blocks do not need replacement.
 
-## Three proposed shelf variants
+## Included woods
 
-- `pmsshelves:bop_jacaranda_shelf` — Biomes O’ Plenty Jacaranda
-- `pmsshelves:ru_redwood_shelf` — Regions Unexplored Redwood
-- `pmsshelves:ns_wisteria_shelf` — Nature’s Spirit Wisteria
+- **Biomes O’ Plenty** (biomesoplenty): 13: dead, empyreal, fir, hellbark, jacaranda, magic, mahogany, maple, palm, pine, redwood, umbran, willow
 
-Designed for Minecraft **1.21.1**, NeoForge **21.1.265**, Shelf Backport **1.0.0**. Requires the underlying wood mods. Keep original Shelf Backport installed. The eventual addon must be installed on **client and server**, because it registers new blocks.
+- **Nature’s Spirit** (natures_spirit): 17: aspen, cedar, coconut, cypress, fir, ghaf, joshua, larch, mahogany, maple, olive, palo_verde, redwood, saxaul, sugi, willow, wisteria
 
-## Recommended path to a compiled JAR (no Java programming required)
+- **Oh The Biomes We’ve Gone** (biomeswevegone): 25: aspen, baobab, blue_enchanted, cika, cypress, ebony, fir, florus, green_enchanted, holly, ironwood, jacaranda, mahogany, maple, palm, pine, rainbow_eucalyptus, redwood, sakura, skyris, spirit, white_mangrove, willow, witch_hazel, zelkova
 
-This project includes `.github/workflows/build.yml`, which runs a Gradle build through GitHub Actions. Steps:
+- **Regions Unexplored** (regions_unexplored): 39: alpha, baobab, black_painted, blackwood, blue_bioshroom, blue_painted, brimwood, brown_painted, cobalt, cyan_painted, cypress, dead, eucalyptus, gray_painted, green_bioshroom, green_painted, joshua, kapok, larch, light_blue_painted, light_gray_painted, lime_painted, magenta_painted, magnolia, maple, orange_painted, palm, pine, pink_bioshroom, pink_painted, purple_painted, red_painted, redwood, socotra, white_painted, willow, wisteria, yellow_bioshroom, yellow_painted
 
-1. Create a private GitHub repository called `pms-shelf-variants`.
-2. Upload **the contents of this extracted project**, retaining directories (including the hidden `.github/workflows/build.yml`). GitHub's browser upload may be awkward for nested folders; a GitHub Desktop commit/push is an alternative.
-3. Open **Actions → Build PMS Shelf Variants → Run workflow** (or wait for the automatic run after pushing to `main`).
-4. If the build succeeds, download the **pms-shelf-variants** artifact, unzip it, and locate the JAR within.
-5. If the build fails, copy the failure details into chat so the source can be corrected. **The initial build is not verified.**
+- **Mystic’s Biomes** (mysticsbiomes): 9: black_cherry, lavender, maple, peach, sea_foam, spring, strawberry, tropical, vanilla
 
-Alternative for an experienced helper: install Java 21 and Gradle 8.10.2, and run `gradle build` from the project directory, then check `build/libs/`.
+- **Distant Lands** (distantlandsmc): 4: haru, ipe_amarelo, jacaranda, pau_brasil
 
-## Once a valid JAR exists
+## Installation and build
 
-Backup your test world; install the resulting addon JAR on your CurseForge profile **and** dedicated server alongside Shelf Backport, BOP, Regions Unexplored and Nature’s Spirit. Restart. Test item placement, item storage, redstone, connected shelves and inventory persistence after restart. Do not deploy to a live world without passing these tests.
+Replace prior PMS Shelf Variants sources in the same GitHub repository, preserving `.github/workflows/build.yml` and its ClamAV scan. Upload the changed `src` files, `build.gradle`, and `neoforge.mods.toml`. Do not install simultaneously with older PMS Shelf Variants JARs.
 
-## Project notes
+All six source mods plus Shelf Backport are required on both client and server. These resources are built from source JAR assets; the actual generated shelf models follow Shelf Backport's existing shelf multipart template. Each source mod's planks texture is used for the shelf appearance; decorative repainting and rare wood families use matching planks as crafting ingredients when stripped logs are absent.
 
-- Reuses the existing `ShelfBlock` type and the NeoForge block-entity extension event.
-- Includes three recipes, blockstates, models, loot tables and texture files.
-- No Minecraft/NeoForge runtime test has been performed; errors may need correction.
-- Source textures are based on Shelf Backport's original shelf assets; preserve the original project's license terms. No modded-wood JAR assets are redistributed.
+**Caution:** This is a code-complete, uncompiled source build; it has not been tested in Minecraft. Back up worlds before replacing shelf variants, and test all recipes in a test world first.

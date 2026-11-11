@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_left",
+  "textures": {
+    "all": "pmsshelves:block/bwg_sakura_shelf",
+    "particle": "pmsshelves:block/bwg_sakura_shelf"
+  }
+}

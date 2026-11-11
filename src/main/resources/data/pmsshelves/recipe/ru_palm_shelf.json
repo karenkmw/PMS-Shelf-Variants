@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:stripped_palm_log"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:ru_palm_shelf",
+    "count": 6
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomeswevegone:stripped_zelkova_log"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:bwg_zelkova_shelf",
+    "count": 6
+  }
+}

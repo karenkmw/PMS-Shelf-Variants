@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mysticsbiomes:stripped_maple_log"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:mb_maple_shelf",
+    "count": 6
+  }
+}

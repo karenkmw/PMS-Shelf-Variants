@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_unpowered",
+  "textures": {
+    "all": "pmsshelves:block/dl_ipe_amarelo_shelf",
+    "particle": "pmsshelves:block/dl_ipe_amarelo_shelf"
+  }
+}

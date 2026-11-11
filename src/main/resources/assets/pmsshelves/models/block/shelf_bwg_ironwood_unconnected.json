@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_unconnected",
+  "textures": {
+    "all": "pmsshelves:block/bwg_ironwood_shelf",
+    "particle": "pmsshelves:block/bwg_ironwood_shelf"
+  }
+}

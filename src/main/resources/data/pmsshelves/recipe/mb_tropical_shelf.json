@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mysticsbiomes:stripped_tropical_log"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:mb_tropical_shelf",
+    "count": 6
+  }
+}

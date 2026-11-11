@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_body",
+  "textures": {
+    "all": "pmsshelves:block/ns_mahogany_shelf",
+    "particle": "pmsshelves:block/ns_mahogany_shelf"
+  }
+}

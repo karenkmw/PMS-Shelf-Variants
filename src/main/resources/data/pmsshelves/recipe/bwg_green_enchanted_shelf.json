@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomeswevegone:stripped_green_enchanted_log"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:bwg_green_enchanted_shelf",
+    "count": 6
+  }
+}

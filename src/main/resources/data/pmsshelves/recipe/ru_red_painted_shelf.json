@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:red_painted_planks"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:ru_red_painted_shelf",
+    "count": 6
+  }
+}

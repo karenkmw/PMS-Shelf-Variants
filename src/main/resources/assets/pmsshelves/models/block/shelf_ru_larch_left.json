@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_left",
+  "textures": {
+    "all": "pmsshelves:block/ru_larch_shelf",
+    "particle": "pmsshelves:block/ru_larch_shelf"
+  }
+}

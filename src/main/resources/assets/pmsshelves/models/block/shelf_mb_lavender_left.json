@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_left",
+  "textures": {
+    "all": "pmsshelves:block/mb_lavender_shelf",
+    "particle": "pmsshelves:block/mb_lavender_shelf"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_inventory",
+  "textures": {
+    "all": "pmsshelves:block/ru_baobab_shelf",
+    "particle": "pmsshelves:block/ru_baobab_shelf"
+  }
+}

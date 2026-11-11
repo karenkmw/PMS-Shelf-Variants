@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mysticsbiomes:stripped_black_cherry_log"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:mb_black_cherry_shelf",
+    "count": 6
+  }
+}

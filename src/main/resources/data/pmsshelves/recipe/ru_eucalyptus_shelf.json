@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:stripped_eucalyptus_log"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:ru_eucalyptus_shelf",
+    "count": 6
+  }
+}

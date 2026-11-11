@@ -2,6 +2,6 @@
   "parent": "shelvesbackport:block/template_shelf_center",
   "textures": {
     "all": "pmsshelves:block/ru_redwood_shelf",
-    "particle": "regions_unexplored:block/stripped_redwood_log"
+    "particle": "pmsshelves:block/ru_redwood_shelf"
   }
 }

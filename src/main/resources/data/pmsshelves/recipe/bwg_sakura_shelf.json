@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomeswevegone:stripped_sakura_log"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:bwg_sakura_shelf",
+    "count": 6
+  }
+}

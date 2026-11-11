@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "natures_spirit:stripped_fir_log"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:ns_fir_shelf",
+    "count": 6
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_body",
+  "textures": {
+    "all": "pmsshelves:block/bop_hellbark_shelf",
+    "particle": "pmsshelves:block/bop_hellbark_shelf"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_center",
+  "textures": {
+    "all": "pmsshelves:block/bop_fir_shelf",
+    "particle": "pmsshelves:block/bop_fir_shelf"
+  }
+}

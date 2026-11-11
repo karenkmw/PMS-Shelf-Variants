@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "distantlandsmc:stripped_pau_brasil_log"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:dl_pau_brasil_shelf",
+    "count": 6
+  }
+}

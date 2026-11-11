@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_center",
+  "textures": {
+    "all": "pmsshelves:block/ru_lime_painted_shelf",
+    "particle": "pmsshelves:block/ru_lime_painted_shelf"
+  }
+}

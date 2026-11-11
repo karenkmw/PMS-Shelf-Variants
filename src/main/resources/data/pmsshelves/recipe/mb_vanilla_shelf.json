@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mysticsbiomes:stripped_vanilla_log"
+    }
+  },
+  "result": {
+    "id": "pmsshelves:mb_vanilla_shelf",
+    "count": 6
+  }
+}

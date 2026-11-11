@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_body",
+  "textures": {
+    "all": "pmsshelves:block/mb_sea_foam_shelf",
+    "particle": "pmsshelves:block/mb_sea_foam_shelf"
+  }
+}

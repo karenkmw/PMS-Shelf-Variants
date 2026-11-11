@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_right",
+  "textures": {
+    "all": "pmsshelves:block/bwg_witch_hazel_shelf",
+    "particle": "pmsshelves:block/bwg_witch_hazel_shelf"
+  }
+}

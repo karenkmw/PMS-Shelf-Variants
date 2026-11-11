@@ -1,0 +1,7 @@
+{
+  "parent": "shelvesbackport:block/template_shelf_unconnected",
+  "textures": {
+    "all": "pmsshelves:block/ns_cypress_shelf",
+    "particle": "pmsshelves:block/ns_cypress_shelf"
+  }
+}
