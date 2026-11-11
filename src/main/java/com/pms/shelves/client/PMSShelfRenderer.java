@@ -10,7 +10,7 @@ import com.pms.shelves.PMSShelves;
 
 /** Experimental alignment correction, affecting PMS blocks only. */
 public final class PMSShelfRenderer extends ShelfBlockEntityRenderer {
-    private static final double PMS_ITEM_Y_OFFSET = 3.0 / 16.0;
+    private static final double PMS_ITEM_Y_OFFSET = 2.5 / 16.0;
 
     public PMSShelfRenderer(BlockEntityRendererProvider.Context context) {
         super(context);
